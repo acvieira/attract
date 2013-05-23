@@ -1,0 +1,5 @@
+/* TEAM */
+
+CSS+HTML+jQuery: Eduardo Ribeiro
+Project Management: André Campos Avelar
+Programming: Eduardo Ribeiro
