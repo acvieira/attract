@@ -1,0 +1,443 @@
+@charset "utf-8";
+*{
+	font-family: Arial, Helvetica, sans-serif;	
+}
+html, body{
+    margin-bottom: 0px;
+    height: 100%;
+}
+.row{
+   margin-bottom: 0px;
+}
+
+.nomargin{
+    margin-bottom: 0px;
+}
+a {
+		color: #666;
+	}
+a:hover {
+		color: #333;
+	}
+
+html, body {
+		background: #fff;
+	}
+#header-deco{
+    background: #838383;
+    height: 0px;
+    display:block;
+    margin-bottom: 8px;
+}
+/*#logo{
+    background: url(../img/logo.png) no-repeat top left;
+    height: 103px;
+    text-indent:-9999999px;
+    overflow:hidden;
+    padding: 0px;
+    border: none;
+}
+*/
+
+.field{
+        margin-bottom: 0;
+}
+
+.field .input{
+    width: 150px;
+    float: right;
+    text-align: left;
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    height: 24px;
+    background: url("http://staging2.attractal.com/img/btn-search.png") no-repeat 125px 3px transparent;
+}
+
+#shortcuts {
+	display: block;
+	float: right;
+}
+#tools{
+    display: block;
+    float: right;
+}
+#shortcuts li, #tools li{
+	float: left;
+	margin: 0 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+#shortcuts > li:after {
+  content: ' |';
+    margin-left: 5px;
+}
+
+#shortcuts > li:last-child:after {
+  content: '';
+  margin-left: 0px;
+}
+#tools li.share a{
+    background: url(http://staging2.attractal.com/img/share.jpg) no-repeat 0 5px;
+    width:18px;
+    height: 24px;
+    overflow: hidden;
+    text-indent:999999px;
+    display: block;
+}
+#tools li.rss a{
+    background: url(http://staging2.attractal.com/img/rss.jpg) no-repeat 0 5px;
+    width:18px;
+    height: 24px;
+    overflow: hidden;
+    text-indent:999999px;
+    display: block;
+}
+#tools li.contacts a{
+	color: #FFF;
+	background: #b7b7b7;
+	border-radius: 20px;
+	padding: 0 10px;
+    text-decoration: none;
+    display: block;
+    height: 25px;
+}
+#tools li.contacts a:hover{
+    color: #FFF;
+    background: #666;
+    
+}
+#header_tools {
+	text-align: right;
+}
+#areas {
+	display: block;
+	float: right;
+}
+#areas li{
+	float: left;
+	font-family: Helvetica, "Arial Black", Gadget, sans-serif;
+	text-transform: none;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 5px 0 5px;
+	padding-left: 22px;
+	}
+#areas li.silver, .menu li.silver{
+	background: url(http://staging2.attractal.com/img/silver.jpg) no-repeat 0 5px;
+	}
+#areas li.gold, .menu li.gold{
+	background: url(http://staging2.attractal.com/img/gold.jpg) no-repeat 0 5px;
+	}
+#areas li.green, .menu li.green{
+	background: url(http://staging2.attractal.com/img/green.jpg) no-repeat 0 5px;
+	}
+#slides{
+    height:252px;
+    overflow:hidden;
+}
+#slides li{
+    width: 940px;
+}
+#slides #caption{
+    bottom: 232px;
+    position: relative;
+    width: 50%;
+    opacity:0.8;
+    text-shadow:1px 1px 1px #333;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing:0em;
+    margin: 0 35px;
+}
+#slides #caption h1{
+    font-family:Arial, "arial black", sans-serif;
+    font-size: 71px;
+    color: #fff;
+    line-height:80px;
+    letter-spacing:-3px;
+    font-weight:bold;
+}
+#slides #caption h1 span{
+    font-size: 27px;
+    display:block;
+    color: #fff;
+    letter-spacing: 0em;
+    line-height:30px;
+    font-weight:bold;   
+}
+#slides #caption p{
+    font-family:Arial, "arial black", sans-serif;
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    line-height: 18px;
+    letter-spacing:0em;
+    font-weight:normal;
+}
+.news{
+    font-family:Arial, "arial black", sans-serif;
+    background: url(http://staging2.attractal.com/img/news-bg.jpg) no-repeat bottom left;
+    text-align:center;
+}
+.news h3{
+    font-family:Arial, "arial black", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight:bold;
+    text-align:left;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.news p{
+    font-size:11px;
+    color: #6c6c6c;
+    text-align:left;
+    line-height:17px;
+    margin-bottom: 10px;
+}
+
+.news a#more{
+    font-size: 11px;
+    font-weight:bold;
+    color: #FFF;
+    background-color:#39ac32;
+    border-radius:15px;
+    padding: 3px 15px 3px 5px;
+}
+
+.news a#more:hover{
+    background-color:#39ac32;
+    text-decoration:none;    
+}
+
+.news a#banner{
+    background: url('http://staging2.attractal.com/img/banner_area_one.jpg') no-repeat top left;
+    text-indent: -999999px;
+    overflow: hidden;
+    height:275px;
+    display:block;
+}
+
+/*  FOOTER  */
+
+#footer #separator{
+    color: #FFF;
+    font-size: 10px;
+    font-family:arial;
+}
+#footer #separator .row{
+    margin-bottom:0px;
+    height: 30px;
+}
+
+#footer .footer-links{
+    display: block;
+    float: right;
+}
+#footer .footer-links li{
+    float: left;
+    text-align:left;
+    margin: 0 5px;
+}
+
+#footer #separator .footer-links li a{
+    color: #FFF;
+}
+
+#footer #separator .footer-links li a:hover{
+    color: #CCC;
+}
+.footer-links > li:after {
+    content: ' |';
+    margin-left: 5px;
+}
+.footer-links > li:last-child:after {
+    content: '';
+    margin: 0px;
+}
+#footer #separator span{
+    height: 5px;
+    display:block;
+}
+
+#footer .moreFooter{
+    height: 75px;
+    background:#3f3f3f;
+    text-align:center;
+}
+
+#footer .moreFooter a#toogleFooter{
+    width: 60px;
+    height:60px;
+    display:inline-block;
+    overflow: hidden;
+    text-indent:99999px;
+    margin: 7px 0;
+}
+
+#footer .moreFooter a.open{
+        background:url('http://staging2.attractal.com/img/top.png') no-repeat top left;
+}
+#footer .moreFooter a.close{
+        background:url('http://staging2.attractal.com/img/bottom.png') no-repeat top left;
+}
+#footer #panel{
+    display: none;
+    overflow: hidden;
+}
+#footer .category-list{
+    position: relative;
+    zoom: 1;
+    background: #4c4c4c; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjNGM0YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iIzZiNmI2YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzRjNGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #4c4c4c 0%, #6b6b6b 47%, #4c4c4c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(47%,#6b6b6b), color-stop(100%,#4c4c4c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #4c4c4c 0%,#6b6b6b 47%,#4c4c4c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #4c4c4c 0%,#6b6b6b 47%,#4c4c4c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #4c4c4c 0%,#6b6b6b 47%,#4c4c4c 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #4c4c4c 0%,#6b6b6b 47%,#4c4c4c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#4c4c4c',GradientType=0 ); /* IE6-8 */
+    padding: 60px 0 150px 0;
+
+}
+#footer .category-list h3{
+    font-size: 14px;
+    text-transform:uppercase;
+    font-weight:bold;
+    color: #2ad215;
+    font-family: Arial, helvetica, sans-serif;
+}
+#footer .category-list li{
+    padding: 0;
+    margin: 0;
+    line-height: 16px;
+}
+#footer .category-list a{
+    font-size: 12px;
+    color: #FFF;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+#footer .row{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#footer #footer2{
+    background: #000;
+    font-size: 10px;
+    font-family:arial;
+    padding: 150px 0 0 0;
+    margin: 0;
+}
+
+#area-header{
+    color: #FFF;
+    font-size: 12px;
+    font-family:arial;
+}
+
+#area-header ul{
+    display: inline; padding: 0px; margin: 0px;
+}
+
+#area-header ul li{
+    float: left; margin: 0 5px;
+}
+
+#area-header ul li:after{
+    content: " > ";
+    margin-left: 5px;
+}
+
+#area-header ul li:last-child:after{
+    content: "";
+}
+
+#area-header ul li a{
+    color: #FFF;
+}
+#area-header span{
+    height:5px;
+    display:block;
+}
+.consulting{
+    background: #288f1d; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI4OGYxZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIzJSIgc3RvcC1jb2xvcj0iIzdhY2IzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc3JSIgc3RvcC1jb2xvcj0iIzdhY2IzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyODhmMWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #288f1d 0%, #7acb3e 23%, #7acb3e 77%, #288f1d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#288f1d), color-stop(23%,#7acb3e), color-stop(77%,#7acb3e), color-stop(100%,#288f1d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #288f1d 0%,#7acb3e 23%,#7acb3e 77%,#288f1d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #288f1d 0%,#7acb3e 23%,#7acb3e 77%,#288f1d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #288f1d 0%,#7acb3e 23%,#7acb3e 77%,#288f1d 100%); /* IE10+ */
+    background: linear-gradient(to right,  #288f1d 0%,#7acb3e 23%,#7acb3e 77%,#288f1d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#288f1d', endColorstr='#288f1d',GradientType=1 ); /* IE6-8 */
+}
+.consulting span{
+    background: #00b000;
+}
+.technology{
+    background: #6b6b6b; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZiNmI2YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iIzk3OTc5NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iIzk3OTc5NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2YjZiNmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #6b6b6b 0%, #979797 25%, #979797 75%, #6b6b6b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6b6b6b), color-stop(25%,#979797), color-stop(75%,#979797), color-stop(100%,#6b6b6b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #6b6b6b 0%,#979797 25%,#979797 75%,#6b6b6b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #6b6b6b 0%,#979797 25%,#979797 75%,#6b6b6b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #6b6b6b 0%,#979797 25%,#979797 75%,#6b6b6b 100%); /* IE10+ */
+    background: linear-gradient(to right,  #6b6b6b 0%,#979797 25%,#979797 75%,#6b6b6b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', endColorstr='#6b6b6b',GradientType=1 ); /* IE6-8 */
+}
+.technology span{
+    background: #6b6b6b;
+}
+.investments{
+    background: #b67e08; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I2N2UwOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI2VhYzY0MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iI2VhYzY0MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiNjdlMDgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #b67e08 0%, #eac643 25%, #eac643 75%, #b67e08 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b67e08), color-stop(25%,#eac643), color-stop(75%,#eac643), color-stop(100%,#b67e08)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #b67e08 0%,#eac643 25%,#eac643 75%,#b67e08 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #b67e08 0%,#eac643 25%,#eac643 75%,#b67e08 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #b67e08 0%,#eac643 25%,#eac643 75%,#b67e08 100%); /* IE10+ */
+    background: linear-gradient(to right,  #b67e08 0%,#eac643 25%,#eac643 75%,#b67e08 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b67e08', endColorstr='#b67e08',GradientType=1 ); /* IE6-8 */
+
+}
+
+.investments span{
+    background:#be8f2d;
+}
+.homepage{
+    background: #298e14; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5OGUxNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzVmYzIzOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNDg3MGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #298e14 0%, #5fc239 50%, #14870b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#298e14), color-stop(50%,#5fc239), color-stop(100%,#14870b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #298e14 0%,#5fc239 50%,#14870b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #298e14 0%,#5fc239 50%,#14870b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #298e14 0%,#5fc239 50%,#14870b 100%); /* IE10+ */
+    background: linear-gradient(to right,  #298e14 0%,#5fc239 50%,#14870b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#298e14', endColorstr='#14870b',GradientType=1 ); /* IE6-8 */
+}
+.homepage span{
+    background: #00b000;
+}
+.menu ul li{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 5px;
+    padding-left: 22px;
+    text-transform: uppercase;
+}
+.menu ul li ul li ul{
+    display: none;
+}
+
+	@media only screen and (max-width: 767px) {
+
+
+	}
