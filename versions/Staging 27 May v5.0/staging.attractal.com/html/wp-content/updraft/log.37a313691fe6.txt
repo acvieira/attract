@@ -1,0 +1,312 @@
+0000.000 () Opened log file at time: Sun, 26 May 2013 00:49:48 +0000
+0000.004 () UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.008 () Free space on disk containing Updraft's temporary directory: 1266270.6 Mb
+0000.015 () Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: twicedaily)
+0000.017 () Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.022 (0) Backup run: resumption=0, nonce=37a313691fe6, begun at=1369529388 (0s ago), job type=backup
+0000.023 (0) Scheduling a resumption (1) after 300 seconds (1369529688) in case this run gets aborted
+0000.026 (0) Creation of backups of directories: beginning
+0000.032 (0) Beginning creation of dump of plugins
+0003.999 (0) Created plugins zip - file size is 6475.1 Kb in 4 s (1633.8 Kb/s)
+0004.001 (0) Beginning creation of dump of themes
+0004.708 (0) Created themes zip - file size is 1955.5 Kb in 0.7 s (2789.1 Kb/s)
+0004.710 (0) Beginning creation of dump of uploads
+0004.721 (0) Created uploads zip - file size is 0.3 Kb in 0 s (38.5 Kb/s)
+0004.723 (0) Beginning backup of other directories found in the content directory
+0004.724 (0) Looking for candidates to back up in: /nfs/c04/h04/mnt/164168/domains/staging.attractal.com/html/wp-content
+0004.726 (0) finding files: themes: skipping: this is the themes directory
+0004.727 (0) finding files: index.php: skipping: excluded by options
+0004.728 (0) finding files: upgrade: skipping: excluded by options
+0004.729 (0) finding files: install.php: adding to list
+0004.729 (0) finding files: plugins: skipping: this is the plugins directory
+0004.730 (0) finding files: updraft: skipping: this is the updraft directory
+0004.731 (0) finding files: uploads: skipping: this is the uploads directory
+0004.740 (0) Created others zip - file size is 0.6 Kb in 0 s (93.5 Kb/s)
+0004.743 (0) Saving backup status to database (elements: 8)
+0004.745 (0) Unrecognised data when trying to ascertain if the database was backed up ()
+0004.746 (0) Saving backup history
+0004.748 (0) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0004.749 (0) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0004.749 (0) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0004.750 (0) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0004.751 (0) Requesting backup of the files that were not successfully uploaded
+0004.752 (0) Cloud backup selection: googledrive
+0004.755 (0) Beginning dispatch of backup to remote
+0004.760 (0) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0004.891 (0) Google Drive error when requesting access token: response does not contain access_token
+0004.892 (0) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0004.897 (0) An error condition has occurred for the first time during this job
+0004.901 (0) Resume backup (37a313691fe6, 0): finish run
+0004.906 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0004.907 (0) An email has been scheduled for this job, because we are in debug mode
+0004.909 (0) Sending email ('Files only (database was not part of this particular schedule)') report to: acvie...
+0004.991 (0) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 () Opened log file at time: Sun, 26 May 2013 00:54:52 +0000
+0000.002 () UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.004 () Free space on disk containing Updraft's temporary directory: 1269292.5 Mb
+0000.006 (1) Backup run: resumption=1, nonce=37a313691fe6, begun at=1369529388 (304s ago), job type=backup
+0000.007 (1) Scheduling a resumption (2) after 300 seconds (1369529992) in case this run gets aborted
+0000.009 (1) Creation of backups of directories: already finished
+0000.016 (1) Saving backup status to database (elements: 8)
+0000.017 (1) Unrecognised data when trying to ascertain if the database was backed up ()
+0000.018 (1) Saving backup history
+0000.019 (1) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.020 (1) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.020 (1) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.021 (1) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.022 (1) Requesting backup of the files that were not successfully uploaded
+0000.022 (1) Cloud backup selection: googledrive
+0000.025 (1) Beginning dispatch of backup to remote
+0000.028 (1) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.156 (1) Google Drive error when requesting access token: response does not contain access_token
+0000.157 (1) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.158 (1) An error condition has occurred for the first time during this job
+0000.159 (1) Resume backup (37a313691fe6, 1): finish run
+0000.161 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.161 (1) An email has been scheduled for this job, because we are in debug mode
+0000.162 (1) Sending email ('Files only (database was not part of this particular schedule)') report to: acvie...
+0000.213 (1) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 (2) Opened log file at time: Sun, 26 May 2013 00:59:57 +0000
+0000.002 (2) UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.005 (2) Free space on disk containing Updraft's temporary directory: 1267531.3 Mb
+0000.006 (2) Backup run: resumption=2, nonce=37a313691fe6, begun at=1369529370 (627s ago), job type=backup
+0000.007 (2) Scheduling a resumption (3) after 300 seconds (1369530297) in case this run gets aborted
+0000.010 (2) Creation of backups of directories: already finished
+0000.022 (2) Saving backup status to database (elements: 8)
+0000.024 (2) Database dump: Creation was completed already
+0000.025 (2) Saving backup history
+0000.028 (2) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.029 (2) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.030 (2) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.031 (2) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.031 (2) backup_2013-05-26-0049_attractal_37a313691fe6-db.gz: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem
+0000.032 (2) Recording as successfully uploaded: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz (b0aa319b03cb1d2247f375d3c2b8c33d)
+0000.034 (2) Deleting local file: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz
+0000.034 (2) Requesting backup of the files that were not successfully uploaded
+0000.035 (2) Cloud backup selection: googledrive
+0000.036 (2) Beginning dispatch of backup to remote
+0000.037 (2) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.163 (2) Google Drive error when requesting access token: response does not contain access_token
+0000.168 (2) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.168 (2) Resume backup (37a313691fe6, 2): finish run
+0000.171 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.172 (2) An email has been scheduled for this job, because we are in debug mode
+0000.173 (2) Sending email ('Files and database') report to: acvie...
+0000.235 (2) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 (3) Opened log file at time: Sun, 26 May 2013 01:05:15 +0000
+0000.001 (3) UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n30 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.003 (3) Free space on disk containing Updraft's temporary directory: 1268719.3 Mb
+0000.004 (3) Backup run: resumption=3, nonce=37a313691fe6, begun at=1369529370 (945s ago), job type=backup
+0000.004 (3) Scheduling a resumption (4) after 300 seconds (1369530615) in case this run gets aborted
+0000.007 (3) Creation of backups of directories: already finished
+0000.020 (3) Saving backup status to database (elements: 8)
+0000.022 (3) Database dump: Creation was completed already
+0000.024 (3) Saving backup history
+0000.027 (3) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.028 (3) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.029 (3) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.030 (3) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.031 (3) backup_2013-05-26-0049_attractal_37a313691fe6-db.gz: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem
+0000.031 (3) Recording as successfully uploaded: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz (b0aa319b03cb1d2247f375d3c2b8c33d)
+0000.033 (3) Deleting local file: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz
+0000.034 (3) Requesting backup of the files that were not successfully uploaded
+0000.034 (3) Cloud backup selection: googledrive
+0000.035 (3) Beginning dispatch of backup to remote
+0000.036 (3) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.161 (3) Google Drive error when requesting access token: response does not contain access_token
+0000.164 (3) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.169 (3) Resume backup (37a313691fe6, 3): finish run
+0000.170 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.171 (3) An email has been scheduled for this job, because we are in debug mode
+0000.172 (3) Sending email ('Files and database') report to: acvie...
+0000.224 (3) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 (4) Opened log file at time: Sun, 26 May 2013 01:10:19 +0000
+0000.001 (4) UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n30 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.002 (4) Free space on disk containing Updraft's temporary directory: 1271296.9 Mb
+0000.003 (4) Backup run: resumption=4, nonce=37a313691fe6, begun at=1369529370 (1249s ago), job type=backup
+0000.004 (4) Scheduling a resumption (5) after 300 seconds (1369530919) in case this run gets aborted
+0000.005 (4) Creation of backups of directories: already finished
+0000.010 (4) Saving backup status to database (elements: 8)
+0000.012 (4) Database dump: Creation was completed already
+0000.014 (4) Saving backup history
+0000.032 (4) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.035 (4) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.036 (4) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.037 (4) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.038 (4) backup_2013-05-26-0049_attractal_37a313691fe6-db.gz: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem
+0000.038 (4) Recording as successfully uploaded: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz (b0aa319b03cb1d2247f375d3c2b8c33d)
+0000.040 (4) Deleting local file: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz
+0000.040 (4) Requesting backup of the files that were not successfully uploaded
+0000.041 (4) Cloud backup selection: googledrive
+0000.042 (4) Beginning dispatch of backup to remote
+0000.042 (4) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.168 (4) Google Drive error when requesting access token: response does not contain access_token
+0000.169 (4) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.170 (4) Resume backup (37a313691fe6, 4): finish run
+0000.171 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.172 (4) An email has been scheduled for this job, because we are in debug mode
+0000.174 (4) Sending email ('Files and database') report to: acvie...
+0000.222 (4) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 (5) Opened log file at time: Sun, 26 May 2013 01:15:22 +0000
+0000.002 (5) UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n10 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.005 (5) Free space on disk containing Updraft's temporary directory: 1270723.8 Mb
+0000.005 (5) Backup run: resumption=5, nonce=37a313691fe6, begun at=1369529370 (1552s ago), job type=backup
+0000.010 (5) Scheduling a resumption (6) after 300 seconds (1369531222) in case this run gets aborted
+0000.012 (5) Creation of backups of directories: already finished
+0000.035 (5) Saving backup status to database (elements: 8)
+0000.037 (5) Database dump: Creation was completed already
+0000.039 (5) Saving backup history
+0000.042 (5) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.042 (5) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.043 (5) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.044 (5) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.044 (5) backup_2013-05-26-0049_attractal_37a313691fe6-db.gz: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem
+0000.045 (5) Recording as successfully uploaded: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz (b0aa319b03cb1d2247f375d3c2b8c33d)
+0000.046 (5) Deleting local file: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz
+0000.047 (5) Requesting backup of the files that were not successfully uploaded
+0000.048 (5) Cloud backup selection: googledrive
+0000.049 (5) Beginning dispatch of backup to remote
+0000.050 (5) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.177 (5) Google Drive error when requesting access token: response does not contain access_token
+0000.178 (5) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.179 (5) Resume backup (37a313691fe6, 5): finish run
+0000.181 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.182 (5) An email has been scheduled for this job, because we are in debug mode
+0000.182 (5) Sending email ('Files and database') report to: acvie...
+0000.245 (5) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 (6) Opened log file at time: Sun, 26 May 2013 01:20:56 +0000
+0000.003 (6) UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.004 (6) Free space on disk containing Updraft's temporary directory: 1269201.1 Mb
+0000.005 (6) Backup run: resumption=6, nonce=37a313691fe6, begun at=1369529370 (1886s ago), job type=backup
+0000.010 (6) Scheduling a resumption (7) after 300 seconds (1369531556) in case this run gets aborted
+0000.018 (6) Creation of backups of directories: already finished
+0000.041 (6) Saving backup status to database (elements: 8)
+0000.047 (6) Database dump: Creation was completed already
+0000.048 (6) Saving backup history
+0000.052 (6) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.053 (6) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.054 (6) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.055 (6) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.056 (6) backup_2013-05-26-0049_attractal_37a313691fe6-db.gz: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem
+0000.107 (6) Recording as successfully uploaded: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz (b0aa319b03cb1d2247f375d3c2b8c33d)
+0000.114 (6) Deleting local file: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz
+0000.114 (6) Requesting backup of the files that were not successfully uploaded
+0000.115 (6) Cloud backup selection: googledrive
+0000.116 (6) Beginning dispatch of backup to remote
+0000.117 (6) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.245 (6) Google Drive error when requesting access token: response does not contain access_token
+0000.246 (6) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.246 (6) Resume backup (37a313691fe6, 6): finish run
+0000.249 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.249 (6) An email has been scheduled for this job, because we are in debug mode
+0000.250 (6) Sending email ('Files and database') report to: acvie...
+0000.360 (6) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 (6) Opened log file at time: Sun, 26 May 2013 01:23:57 +0000
+0000.004 (6) UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.007 (6) Free space on disk containing Updraft's temporary directory: 1266953.9 Mb
+0000.008 (6) Backup run: resumption=6, nonce=37a313691fe6, begun at=1369529370 (2067s ago), job type=backup
+0000.009 (6) Scheduling a resumption (7) after 300 seconds (1369531737) in case this run gets aborted
+0000.012 (6) Creation of backups of directories: already finished
+0000.024 (6) Saving backup status to database (elements: 8)
+0000.026 (6) Database dump: Creation was completed already
+0000.027 (6) Saving backup history
+0000.030 (6) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.126 (6) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.127 (6) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.128 (6) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.129 (6) backup_2013-05-26-0049_attractal_37a313691fe6-db.gz: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem
+0000.130 (6) Recording as successfully uploaded: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz (b0aa319b03cb1d2247f375d3c2b8c33d)
+0000.131 (6) Deleting local file: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz
+0000.132 (6) Requesting backup of the files that were not successfully uploaded
+0000.133 (6) Cloud backup selection: googledrive
+0000.133 (6) Beginning dispatch of backup to remote
+0000.135 (6) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.262 (6) Google Drive error when requesting access token: response does not contain access_token
+0000.263 (6) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.263 (6) Resume backup (37a313691fe6, 6): finish run
+0000.265 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.266 (6) An email has been scheduled for this job, because we are in debug mode
+0000.268 (6) Sending email ('Files and database') report to: acvie...
+0000.319 (6) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 (7) Opened log file at time: Sun, 26 May 2013 01:29:19 +0000
+0000.002 (7) UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.003 (7) Free space on disk containing Updraft's temporary directory: 1274614.9 Mb
+0000.004 (7) Backup run: resumption=7, nonce=37a313691fe6, begun at=1369529370 (2389s ago), job type=backup
+0000.005 (7) Scheduling a resumption (8) after 300 seconds (1369532059) in case this run gets aborted
+0000.007 (7) Creation of backups of directories: already finished
+0000.015 (7) Saving backup status to database (elements: 8)
+0000.017 (7) Database dump: Creation was completed already
+0000.018 (7) Saving backup history
+0000.020 (7) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.021 (7) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.022 (7) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.023 (7) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.024 (7) backup_2013-05-26-0049_attractal_37a313691fe6-db.gz: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem
+0000.025 (7) Recording as successfully uploaded: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz (b0aa319b03cb1d2247f375d3c2b8c33d)
+0000.027 (7) Deleting local file: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz
+0000.028 (7) Requesting backup of the files that were not successfully uploaded
+0000.029 (7) Cloud backup selection: googledrive
+0000.030 (7) Beginning dispatch of backup to remote
+0000.031 (7) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.157 (7) Google Drive error when requesting access token: response does not contain access_token
+0000.158 (7) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.159 (7) Resume backup (37a313691fe6, 7): finish run
+0000.167 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.169 (7) An email has been scheduled for this job, because we are in debug mode
+0000.171 (7) Sending email ('Files and database') report to: acvie...
+0000.220 (7) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 (8) Opened log file at time: Sun, 26 May 2013 01:34:56 +0000
+0000.001 (8) UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.002 (8) Free space on disk containing Updraft's temporary directory: 1269121.1 Mb
+0000.003 (8) Backup run: resumption=8, nonce=37a313691fe6, begun at=1369529370 (2726s ago), job type=backup
+0000.005 (8) Time passed on previous resumptions: 0:? 1:? 2:? 3:? 4:? 5:? 6:? 7:?  (known: 0, max: 0)
+0000.006 (8) Scheduling a resumption (9) after 300 seconds (1369532396) in case this run gets aborted
+0000.009 (8) Creation of backups of directories: already finished
+0000.014 (8) Saving backup status to database (elements: 8)
+0000.016 (8) Database dump: Creation was completed already
+0000.017 (8) Saving backup history
+0000.020 (8) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.021 (8) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.022 (8) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.023 (8) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.023 (8) backup_2013-05-26-0049_attractal_37a313691fe6-db.gz: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem
+0000.024 (8) Recording as successfully uploaded: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz (b0aa319b03cb1d2247f375d3c2b8c33d)
+0000.026 (8) Deleting local file: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz
+0000.026 (8) Requesting backup of the files that were not successfully uploaded
+0000.027 (8) Cloud backup selection: googledrive
+0000.028 (8) Beginning dispatch of backup to remote
+0000.029 (8) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.155 (8) Google Drive error when requesting access token: response does not contain access_token
+0000.163 (8) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.165 (8) Resume backup (37a313691fe6, 8): finish run
+0000.167 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.169 (8) An email has been scheduled for this job, because we are in debug mode
+0000.169 (8) Sending email ('Files and database') report to: acvie...
+0000.224 (8) The backup has not finished; a resumption is scheduled within 5 minutes
+0000.000 (9) Opened log file at time: Sun, 26 May 2013 01:40:16 +0000
+0000.001 (9) UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n13 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.003 (9) Free space on disk containing Updraft's temporary directory: 1271415.6 Mb
+0000.003 (9) Backup run: resumption=9, nonce=37a313691fe6, begun at=1369529370 (3046s ago), job type=backup
+0000.009 (9) The current run is resumption number 9 - will not schedule a further attempt until we see something useful happening
+0000.010 (9) Creation of backups of directories: already finished
+0000.041 (9) Saving backup status to database (elements: 8)
+0000.043 (9) Database dump: Creation was completed already
+0000.044 (9) Saving backup history
+0000.052 (9) backup_2013-05-26-0049_attractal_37a313691fe6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0000.054 (9) backup_2013-05-26-0049_attractal_37a313691fe6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0000.057 (9) backup_2013-05-26-0049_attractal_37a313691fe6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0000.060 (9) backup_2013-05-26-0049_attractal_37a313691fe6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0000.061 (9) backup_2013-05-26-0049_attractal_37a313691fe6-db.gz: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem
+0000.062 (9) Recording as successfully uploaded: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz (b0aa319b03cb1d2247f375d3c2b8c33d)
+0000.065 (9) Deleting local file: backup_2013-05-26-0049_attractal_37a313691fe6-db.gz
+0000.066 (9) Requesting backup of the files that were not successfully uploaded
+0000.068 (9) Cloud backup selection: googledrive
+0000.068 (9) Beginning dispatch of backup to remote
+0000.069 (9) Google Drive: requesting access token: client_id=acvieira@gmail.com
+0000.197 (9) Google Drive error when requesting access token: response does not contain access_token
+0000.198 (9) ERROR: Have not yet obtained an access token from Google (has the user authorised?)
+0000.198 (9) Resume backup (37a313691fe6, 9): finish run
+0000.200 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.201 (9) An email has been scheduled for this job, because we are in debug mode
+0000.201 (9) Sending email ('Files and database') report to: acvie...
+0000.288 (9) The backup attempt has finished, apparently unsuccessfully

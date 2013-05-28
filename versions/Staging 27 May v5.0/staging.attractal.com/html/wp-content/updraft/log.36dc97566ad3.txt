@@ -1,0 +1,135 @@
+0000.000 () Opened log file at time: Sun, 26 May 2013 00:55:03 +0000
+0000.003 () UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.009 () Free space on disk containing Updraft's temporary directory: 1269229.9 Mb
+0000.013 () Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: twicedaily)
+0000.016 () Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.020 (0) Backup run: resumption=0, nonce=36dc97566ad3, begun at=1369529703 (0s ago), job type=backup
+0000.021 (0) Scheduling a resumption (1) after 300 seconds (1369530003) in case this run gets aborted
+0000.024 (0) Creation of backups of directories: beginning
+0000.028 (0) Beginning creation of dump of plugins
+0003.374 (0) Created plugins zip - file size is 6475.1 Kb in 3.3 s (1937.2 Kb/s)
+0003.376 (0) Beginning creation of dump of themes
+0004.142 (0) Created themes zip - file size is 1955.5 Kb in 0.8 s (2563.1 Kb/s)
+0006.076 (0) Beginning creation of dump of uploads
+0007.106 (0) Created uploads zip - file size is 0.3 Kb in 0 s (58.4 Kb/s)
+0007.108 (0) Beginning backup of other directories found in the content directory
+0007.109 (0) Looking for candidates to back up in: /nfs/c04/h04/mnt/164168/domains/staging.attractal.com/html/wp-content
+0007.111 (0) finding files: themes: skipping: this is the themes directory
+0007.113 (0) finding files: index.php: skipping: excluded by options
+0007.114 (0) finding files: upgrade: skipping: excluded by options
+0007.114 (0) finding files: install.php: adding to list
+0007.115 (0) finding files: plugins: skipping: this is the plugins directory
+0007.116 (0) finding files: updraft: skipping: this is the updraft directory
+0007.117 (0) finding files: uploads: skipping: this is the uploads directory
+0007.146 (0) Created others zip - file size is 0.6 Kb in 0 s (32.6 Kb/s)
+0007.149 (0) Saving backup status to database (elements: 8)
+0007.153 (0) Unrecognised data when trying to ascertain if the database was backed up ()
+0007.154 (0) Saving backup history
+0007.156 (0) backup_2013-05-26-0055_attractal_36dc97566ad3-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0007.156 (0) backup_2013-05-26-0055_attractal_36dc97566ad3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0007.157 (0) backup_2013-05-26-0055_attractal_36dc97566ad3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0007.158 (0) backup_2013-05-26-0055_attractal_36dc97566ad3-others.zip: others: This file has not yet been successfully uploaded: will queue
+0007.159 (0) Requesting backup of the files that were not successfully uploaded
+0007.160 (0) Cloud backup selection: dropbox
+0007.166 (0) Beginning dispatch of backup to remote
+0007.167 (0) Dropbox: begin cloud upload
+0007.168 (0) Dropbox: access gained
+0007.336 (0) Dropbox quota usage: normal=7698.1 Mb, shared=692.9 Mb, total=9344 Mb, available=953 Mb
+0007.751 (0) Dropbox: Attempt to upload: backup_2013-05-26-0055_attractal_36dc97566ad3-plugins.zip to: backup_2013-05-26-0055_attractal_36dc97566ad3-plugins.zip
+0010.415 (0) Dropbox chunked upload: 7.9 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 524288)
+0013.169 (0) Dropbox chunked upload: 15.8 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 1048576)
+0016.179 (0) Dropbox chunked upload: 23.7 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 1572864)
+0020.228 (0) Dropbox chunked upload: 31.6 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 2097152)
+0023.991 (0) Dropbox chunked upload: 39.5 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 2621440)
+0028.933 (0) Dropbox chunked upload: 47.4 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 3145728)
+0033.282 (0) Dropbox chunked upload: 55.4 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 3670016)
+0038.008 (0) Dropbox chunked upload: 63.3 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 4194304)
+0040.926 (0) Dropbox chunked upload: 71.2 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 4718592)
+0043.620 (0) Dropbox chunked upload: 79.1 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 5242880)
+0046.622 (0) Dropbox chunked upload: 87 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 5767168)
+0050.144 (0) Dropbox chunked upload: 94.9 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 6291456)
+0053.447 (0) Dropbox chunked upload: 100 % uploaded (qAjtuC-yvzRTtU1G7hae4g, 6630476)
+0056.573 (0) Recording as successfully uploaded: backup_2013-05-26-0055_attractal_36dc97566ad3-plugins.zip (aec21d186e036f0f1c463c8dbcbeac67)
+0056.578 (0) Deleting local file: backup_2013-05-26-0055_attractal_36dc97566ad3-plugins.zip
+0056.581 (0) Dropbox: File upload success (backup_2013-05-26-0055_attractal_36dc97566ad3-plugins.zip): 6475 Kb in 48s (132 Kb/s)
+0056.739 (0) Dropbox quota usage: normal=7704.4 Mb, shared=692.9 Mb, total=9344 Mb, available=946.7 Mb
+0056.743 (0) Dropbox: Attempt to upload: backup_2013-05-26-0055_attractal_36dc97566ad3-themes.zip to: backup_2013-05-26-0055_attractal_36dc97566ad3-themes.zip
+0059.109 (0) Dropbox chunked upload: 26.2 % uploaded (tO2chlsVXmtgCY5mHeeqhQ, 524288)
+0061.580 (0) Dropbox chunked upload: 52.4 % uploaded (tO2chlsVXmtgCY5mHeeqhQ, 1048576)
+0064.684 (0) Dropbox chunked upload: 78.5 % uploaded (tO2chlsVXmtgCY5mHeeqhQ, 1572864)
+0067.872 (0) Dropbox chunked upload: 100 % uploaded (tO2chlsVXmtgCY5mHeeqhQ, 2002483)
+0070.432 (0) Recording as successfully uploaded: backup_2013-05-26-0055_attractal_36dc97566ad3-themes.zip (92a80da0ab788b231346044c38fd397e)
+0070.461 (0) Deleting local file: backup_2013-05-26-0055_attractal_36dc97566ad3-themes.zip
+0070.465 (0) Dropbox: File upload success (backup_2013-05-26-0055_attractal_36dc97566ad3-themes.zip): 1955 Kb in 13s (142 Kb/s)
+0070.626 (0) Dropbox quota usage: normal=7706.3 Mb, shared=692.9 Mb, total=9344 Mb, available=944.8 Mb
+0070.698 (0) Dropbox: Attempt to upload: backup_2013-05-26-0055_attractal_36dc97566ad3-uploads.zip to: backup_2013-05-26-0055_attractal_36dc97566ad3-uploads.zip
+0071.777 (0) Dropbox chunked upload: 100 % uploaded (LEjPUitX3nybTilQukCodw, 324)
+0073.391 (0) Recording as successfully uploaded: backup_2013-05-26-0055_attractal_36dc97566ad3-uploads.zip (fd72bf1895c534634488ef16a902db5d)
+0073.882 (0) Deleting local file: backup_2013-05-26-0055_attractal_36dc97566ad3-uploads.zip
+0074.025 (0) Dropbox: File upload success (backup_2013-05-26-0055_attractal_36dc97566ad3-uploads.zip): 0 Kb in 3s (0 Kb/s)
+0074.426 (0) Dropbox quota usage: normal=7707.3 Mb, shared=692.9 Mb, total=9344 Mb, available=943.8 Mb
+0074.504 (0) Dropbox: Attempt to upload: backup_2013-05-26-0055_attractal_36dc97566ad3-others.zip to: backup_2013-05-26-0055_attractal_36dc97566ad3-others.zip
+0075.495 (0) Dropbox chunked upload: 100 % uploaded (fzsO9AheJLBtE3W8J-87Yg, 576)
+0076.941 (0) Recording as successfully uploaded: backup_2013-05-26-0055_attractal_36dc97566ad3-others.zip (27be8c8cc605893d3ebf931029513f6b)
+0076.943 (0) Deleting local file: backup_2013-05-26-0055_attractal_36dc97566ad3-others.zip
+0076.945 (0) Dropbox: File upload success (backup_2013-05-26-0055_attractal_36dc97566ad3-others.zip): 0 Kb in 2s (0 Kb/s)
+0076.946 (0) Retain: beginning examination of existing backup sets
+0076.947 (0) Retain files: user setting: number to retain = 8
+0076.948 (0) Retain db: user setting: number to retain = 100
+0076.948 (0) Number of backup sets in history: 4
+0076.949 (0) Examining backup set with datestamp: 1369529703
+0076.950 (0) 1369529703: this set includes files; fileset count is now 1
+0076.950 (0) 1369529703: this backup set remains non-empty; will retain in history
+0076.951 (0) Examining backup set with datestamp: 1369529393
+0076.952 (0) 1369529393: this set includes a database (backup_2013-05-26-0049_attractal_6008ade976ae-db.gz); db count is now 1
+0076.953 (0) 1369529393: this set includes files; fileset count is now 2
+0076.953 (0) 1369529393: this backup set remains non-empty; will retain in history
+0076.954 (0) Examining backup set with datestamp: 1369529388
+0076.955 (0) 1369529388: this set includes files; fileset count is now 3
+0076.955 (0) 1369529388: this backup set remains non-empty; will retain in history
+0076.956 (0) Examining backup set with datestamp: 1369529370
+0076.956 (0) 1369529370: this set includes a database (backup_2013-05-26-0049_attractal_63a4716ab8e1-db.gz); db count is now 2
+0076.957 (0) 1369529370: this set includes files; fileset count is now 4
+0076.958 (0) 1369529370: this backup set remains non-empty; will retain in history
+0076.959 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0076.960 (0) Resume backup (36dc97566ad3, 0): finish run
+0076.962 (0) There were no errors in the uploads, so the 'resume' event is being unscheduled
+0076.965 (0) An email has been scheduled for this job, because we are in debug mode
+0076.965 (0) Sending email ('Files only (database was not part of this particular schedule)') report to: acvie...
+0077.056 (0) The backup apparently succeeded and is now complete
+0000.000 () Opened log file at time: Sun, 26 May 2013 01:00:05 +0000
+0000.004 () UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.018 () Free space on disk containing Updraft's temporary directory: 1267456.4 Mb
+0000.020 (1) Backup run: resumption=1, nonce=36dc97566ad3, begun at=1369529703 (302s ago), job type=backup, previous check-in=75.5s
+0000.023 (1) Scheduling a resumption (2) after 300 seconds (1369530305) in case this run gets aborted
+0000.034 (1) Creation of backups of directories: already finished
+0000.044 (1) Saving backup status to database (elements: 4)
+0000.047 (1) Unrecognised data when trying to ascertain if the database was backed up ()
+0000.048 (1) Saving backup history
+0000.050 (1) backup_2013-05-26-0055_attractal_36dc97566ad3-plugins.zip: plugins: This file has already been successfully uploaded
+0000.051 (1) backup_2013-05-26-0055_attractal_36dc97566ad3-themes.zip: themes: This file has already been successfully uploaded
+0000.052 (1) backup_2013-05-26-0055_attractal_36dc97566ad3-uploads.zip: uploads: This file has already been successfully uploaded
+0000.053 (1) backup_2013-05-26-0055_attractal_36dc97566ad3-others.zip: others: This file has already been successfully uploaded
+0000.056 (1) There were no more files that needed uploading; backup job is complete
+0000.058 (1) There were no errors in the uploads, so the 'resume' event is being unscheduled
+0000.060 (1) An email has been scheduled for this job, because we are in debug mode
+0000.061 (1) No email will be sent - this backup set was empty.
+0000.062 (1) The backup apparently succeeded and is now complete
+0000.000 () Opened log file at time: Sun, 26 May 2013 01:00:05 +0000
+0000.003 () UpdraftPlus: 1.6.2 WP: 3.5.1 PHP: 5.3.15 (Linux n27 3.2.6mtv13 #1 SMP Tue May 14 15:32:13 PDT 2013 x86_64) Server: Apache/2.2.22 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : N
+0000.004 () Free space on disk containing Updraft's temporary directory: 1267456.4 Mb
+0000.005 (1) Backup run: resumption=1, nonce=36dc97566ad3, begun at=1369529703 (302s ago), job type=backup, previous check-in=75.5s
+0000.006 (1) Scheduling a resumption (2) after 300 seconds (1369530305) in case this run gets aborted
+0000.008 (1) Creation of backups of directories: already finished
+0000.011 (1) Saving backup status to database (elements: 4)
+0000.013 (1) Unrecognised data when trying to ascertain if the database was backed up ()
+0000.014 (1) Saving backup history
+0000.015 (1) backup_2013-05-26-0055_attractal_36dc97566ad3-plugins.zip: plugins: This file has already been successfully uploaded
+0000.016 (1) backup_2013-05-26-0055_attractal_36dc97566ad3-themes.zip: themes: This file has already been successfully uploaded
+0000.017 (1) backup_2013-05-26-0055_attractal_36dc97566ad3-uploads.zip: uploads: This file has already been successfully uploaded
+0000.018 (1) backup_2013-05-26-0055_attractal_36dc97566ad3-others.zip: others: This file has already been successfully uploaded
+0000.019 (1) There were no more files that needed uploading; backup job is complete
+0000.021 (1) There were no errors in the uploads, so the 'resume' event is being unscheduled
+0000.024 (1) An email has been scheduled for this job, because we are in debug mode
+0000.025 (1) No email will be sent - this backup set was empty.
+0000.027 (1) The backup apparently succeeded and is now complete
